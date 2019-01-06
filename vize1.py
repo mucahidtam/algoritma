@@ -4,7 +4,7 @@ gun = int(input("yilin kacinci gunu: "))
 while toplam<gun:
     toplam += aylar[i]
     i += 1
-umit=100-(gun-toplam+aylar[i-1])*5
+umit=105-(gun-toplam+aylar[i-1])*5
 if(umit>0):
     print(umit)
 else:
